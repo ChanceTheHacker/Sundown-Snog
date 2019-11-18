@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Permanent+Marker");
+
+//colors
+
+$blue: #61dafb;
+$green: #55ff55;
+$red: rgb(189, 50, 50);
+$orange: rgb(226, 142, 45);
+$almostOrange: rgb(255, 136, 0);
+$dark: rgb(7, 7, 22);
+$almostDark: rgb(25, 25, 65);
+
+// font stuff
+
+$title: "Permanent Marker", cursive;
+$text: "Indie Flower", cursive;
+
+$small: calc(10px + 1vmin);
+$medium: calc(10px + 2vmin);
+$large: calc(10px + 3vmin);
+$huge: calc(10px + 4vmin);

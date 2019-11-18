@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sundown Snog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./src/css/main.scss"
+    />
+  </head>
+  <body class="App">
+    <div id="muteDiv">
+      <div id="muteBtn">Sound: ON</div>
+    </div>
+    <div class="background"></div>
+    <h1>Sundown Snog</h1>
+    <canvas></canvas>
+  </body>
+  <audio id="coinAudio1">
+    <source src="/src/sounds/coin.mp3" type="audio/mpeg" />
+  </audio>
+  <audio id="coinAudio2">
+    <source src="/src/sounds/coin.mp3" type="audio/mpeg" />
+  </audio>
+  <audio id="coinAudio3">
+    <source src="/src/sounds/coin.mp3" type="audio/mpeg" />
+  </audio>
+  <audio id="music">
+    <source
+      src="/src/sounds/Blue_Dot_Sessions_-_12_-_Lupi.mp3"
+      type="audio/mpeg"
+    />
+  </audio>
+  <img id="coin" src="./src/sprites/images/coin_silver_shadowless.png" />
+  <img id="spikes" src="./src/sprites/images/spikes.png" />
+  <script src="main.ts"></script>
+</html>

@@ -1,0 +1,40 @@
+@import "./vars";
+@import "./background.scss";
+@import "./canvas.scss";
+
+.App {
+  text-align: center;
+  color: $orange;
+  font-family: $title;
+  font-size: $large;
+
+  display: grid;
+  width: 90vw;
+  height: 100vh;
+  margin: auto;
+  grid-template-rows: 1fr 8fr 1fr;
+}
+
+#muteDiv {
+  position: absolute;
+  top: 2vmax;
+  left: 2vmax;
+}
+
+#muteBtn {
+  user-select: none;
+  border: 4px solid $orange;
+  border-radius: 10px;
+  padding: 0.5vmin 1vmin;
+  width: 13vw;
+}
+
+#muteBtn:hover {
+  background: $almostDark;
+  color: $almostOrange;
+}
+
+#coin,
+#spikes {
+  display: none;
+}
